@@ -4,7 +4,7 @@ const Controller = require('egg').Controller;
 
 class ErrorController extends Controller {
     async create() {
-        const { ctx, service } = this;
+        const { ctx } = this;
         ctx.body = {
             code: 'success',
             data: 'success',
